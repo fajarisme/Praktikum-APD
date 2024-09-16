@@ -4,22 +4,22 @@
         <attribute name="name" value="2409106030_Muhammad_Fajar_Dafita"/>
         <attribute name="authors" value="LENOVO LOQ"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-14 06:46:12 AM"/>
+        <attribute name="saved" value="2024-09-16 10:21:03 PM"/>
         <attribute name="created" value="TEVOT1ZPIExPUTtMQVBUT1AtMFVQRzNBVlM7MjAyNC0wOS0xMzsxMTowMjozOCBQTTszMDkz"/>
-        <attribute name="edited" value="TEVOT1ZPIExPUTtMQVBUT1AtMFVQRzNBVlM7MjAyNC0wOS0xNDswNjo0NjoxMiBBTTsyOzMxOTI="/>
+        <attribute name="edited" value="TEVOT1ZPIExPUTtMQVBUT1AtMFVQRzNBVlM7MjAyNC0wOS0xNjsxMDoyMTowMyBQTTszOzMxOTg="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="Nama, NIM" type="String" array="False" size=""/>
             <declare name="beras, diskon1, diskon2, diskon3" type="Integer" array="False" size=""/>
-            <declare name="diskonn1, diskonn2, diskonn3" type="Integer" array="False" size=""/>
             <declare name="mawar, sania, maknyus" type="Integer" array="False" size=""/>
             <output expression="&quot;Masukkan nama anda&quot;" newline="True"/>
             <input variable="Nama"/>
             <output expression="&quot;Masukkan NIM anda&quot;" newline="True"/>
             <input variable="NIM"/>
-            <assign variable="beras" expression="400000"/>
+            <output expression="&quot;Masukkan harga beras&quot;" newline="True"/>
+            <input variable="beras"/>
             <assign variable="diskon1" expression="0.11 * beras"/>
             <assign variable="diskon2" expression="0.13 * beras"/>
             <assign variable="diskon3" expression="0.17 * beras"/>
